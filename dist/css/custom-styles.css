@@ -1,0 +1,66 @@
+/* Navbar */
+
+#nav-bar.top-bar.stick-it {
+    height: 60px;
+}
+
+#nav-menu {
+    padding-top: 10px;
+}
+
+.wedding-logo {
+    top: 8px;
+    left: 0px;
+}
+
+/* LOGO */
+
+.middle-letter {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    top: 24px;
+    right: 34px;
+}
+
+.top-heart {
+    font-size: 12px;
+    top: 9px;
+    left: 25px;
+}
+
+.his-initial,
+.her-initial {
+    font-size: 26px;
+}
+
+.line-1,
+.line-2 {
+    width: 50px;
+    top: 7px;
+}
+
+.line-1 {
+    left: 30px;
+    transform: rotate(30deg);
+}
+
+.line-2 {
+    right: 34px;
+    transform: rotate(-30deg);
+}
+
+/* Title override */
+
+#slide-his-name {
+
+}
+
+#slide-and-text {
+    margin-top: 50px;
+}
+
+#slide-her-name {
+    margin-top: 140px;
+}
