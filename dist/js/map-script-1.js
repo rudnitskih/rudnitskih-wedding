@@ -18,6 +18,14 @@
     });
 
 
+    // disable scroll https://codepen.io/status201/pen/wKowKz
+    $('.map-container')
+        .click(function(){
+            $(this).find('iframe').addClass('clicked')})
+        .mouseleave(function(){
+            $(this).find('iframe').removeClass('clicked')});
+
+
     //INITIALIZE MAP
     function initialize() {
 
@@ -41,9 +49,9 @@
         //DEFINE MAP OPTIONS
         //=======================================================================================
         var mapOptions = {
-            zoom: 16,
+            zoom: 17,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
-            center: new google.maps.LatLng(51.504520, 31.343359),
+            center: new google.maps.LatLng(51.506020, 31.340359),
             panControl: true,
             zoomControl: true,
             mapTypeControl: true,
@@ -69,118 +77,23 @@
         //ADD NEW MARKER
         //=======================================================================================
         var marker1 = new google.maps.Marker({
-            position: new google.maps.LatLng(51.504520, 31.343359),
+            position: new google.maps.LatLng(51.504619, 31.343359),
             map: map,
-            title: 'Wedding Ceremony'
+            title: 'Місце церемонії'
         });
-        //
-        // var marker2 = new google.maps.Marker({
-        //     position: new google.maps.LatLng(35.440033, -97.437056),
-        //     map: map,
-        //     title: 'Gift Station'
-        // });
-        //
-        // var marker3 = new google.maps.Marker({
-        //     position: new google.maps.LatLng(35.441899, -97.439043),
-        //     map: map,
-        //     title: 'Bus Stop'
-        // });
-        //
-        // var marker4 = new google.maps.Marker({
-        //     position: new google.maps.LatLng(35.443866, -97.437573),
-        //     map: map,
-        //     title: 'Garden'
-        // });
-        //
-        // var marker5 = new google.maps.Marker({
-        //     position: new google.maps.LatLng(35.443835, -97.428649),
-        //     map: map,
-        //     title: 'Train Station'
-        // });
-        //
-        // var marker6 = new google.maps.Marker({
-        //     position: new google.maps.LatLng(35.439997, -97.427630),
-        //     map: map,
-        //     title: 'Airport'
-        // });
 
-
-        //ADD NEW MARKER WITH LABEL
-        //=======================================================================================
-        /*var marker1 = new MarkerWithLabel({
-         position: new google.maps.LatLng(35.441921, -97.432528),
-         draggable: false,
-         raiseOnDrag: false,
-         icon: ' ',
-         map: map,
-         labelContent: '<div id="wedding-marker" class="main-icon-wrapper"><div class="big-circle scale-animation"></div><div class="main-icon-text">Wedding</br>Location</div></div>',
-         labelAnchor: new google.maps.Point(88, 88),
-         labelClass: "labels" // the CSS class for the label
-         });
-
-         var marker2 = new MarkerWithLabel({
-         position: new google.maps.LatLng(35.440033, -97.437056),
-         draggable: false,
-         raiseOnDrag: false,
-         icon: ' ',
-         map: map,
-         labelContent: '<div id="gift-marker" class="de-icon circle medium-size" style="background-color:#fc9e9e;"><i class="de-icon-gift"></i></div>',
-         labelAnchor: new google.maps.Point(27, 27),
-         labelClass: "labels" // the CSS class for the label
-         });
-
-         var marker3 = new MarkerWithLabel({
-         position: new google.maps.LatLng(35.441899, -97.439043),
-         draggable: false,
-         raiseOnDrag: false,
-         icon: ' ',
-         map: map,
-         labelContent: '<div id="bus-marker" class="de-icon circle medium-size" style="background-color:#e9c24c;"><i class="de-icon-bus"></i></div>',
-         labelAnchor: new google.maps.Point(27, 27),
-         labelClass: "labels" // the CSS class for the label
-         });
-
-         var marker4 = new MarkerWithLabel({
-         position: new google.maps.LatLng(35.443866, -97.437573),
-         draggable: false,
-         raiseOnDrag: false,
-         icon: ' ',
-         map: map,
-         labelContent: '<div id="food-marker" class="de-icon circle medium-size" style="background-color:#bfd730;"><i class="de-icon-tree"></i></div>',
-         labelAnchor: new google.maps.Point(27, 27),
-         labelClass: "labels" // the CSS class for the label
-         });
-
-         var marker5 = new MarkerWithLabel({
-         position: new google.maps.LatLng(35.443835, -97.428649),
-         draggable: false,
-         raiseOnDrag: false,
-         icon: ' ',
-         map: map,
-         labelContent: '<div id="train-marker" class="de-icon circle medium-size" style="background-color:#8fcbda;"><i class="de-icon-subway"></i></div>',
-         labelAnchor: new google.maps.Point(27, 27),
-         labelClass: "labels" // the CSS class for the label
-         });
-
-         var marker6 = new MarkerWithLabel({
-         position: new google.maps.LatLng(35.439997, -97.427630),
-         draggable: false,
-         raiseOnDrag: false,
-         icon: ' ',
-         map: map,
-         labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#797ee6;"><i class="de-icon-airport"></i></div>',
-         labelAnchor: new google.maps.Point(27, 27),
-         labelClass: "labels" // the CSS class for the label
-         });*/
-
+        var marker2 = new google.maps.Marker({
+            position: new google.maps.LatLng(51.505999, 31.338670),
+            map: map,
+            title: 'Основний готель'
+        });
 
         //INFO WINDOWS 1
         //=======================================================================================
         var contentString1 = '' +
             '<div class="info-window-wrapper">' +
-            '<h6>CEREMONY</h6>' +
-            '<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
+            '<h6>Церемонія</h6>' +
+            '<div class="info-window-desc">Готель Riverside знаходиться на березі річки Десна</div>' +
             '</div>';
 
         var marker1_infowindow = new google.maps.InfoWindow({
@@ -202,9 +115,9 @@
         //=======================================================================================
         var contentString2 = '' +
             '<div class="info-window-wrapper">' +
-            '<h6>GIFT STATION</h6>' +
-            '<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
+            '<h6>Основна гостиниця</h6>' +
+            '<div class="info-window-desc">Заброньоване місце</div>' +
+            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Подивитися номери</a></div>' +
             '</div>';
 
         var marker2_infowindow = new google.maps.InfoWindow({
@@ -213,111 +126,13 @@
             pixelOffset: new google.maps.Size(0, -10)
         });
 
+        //OPEN INFO WINDOWS ON LOAD
+        marker2_infowindow.open(map, marker2);
+
         //ON MARKER CLICK EVENTS
         google.maps.event.addListener(marker2, 'click', function () {
             marker2_infowindow.open(map, marker2);
         });
-
-
-        //INFO WINDOWS 3
-        //=======================================================================================
-        var contentString3 = '' +
-            '<div class="info-window-wrapper">' +
-            '<h6>BUS STOP</h6>' +
-            '<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-            '</div>';
-
-        var marker3_infowindow = new google.maps.InfoWindow({
-            content: contentString3,
-            maxWidth: 200,
-            pixelOffset: new google.maps.Size(0, -10)
-        });
-
-        //ON MARKER CLICK EVENTS
-        google.maps.event.addListener(marker3, 'click', function () {
-            marker3_infowindow.open(map, marker3);
-        });
-
-
-        //INFO WINDOWS 4
-        //=======================================================================================
-        var contentString4 = '' +
-            '<div class="info-window-wrapper">' +
-            '<h6>GARDEN</h6>' +
-            '<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-            '</div>';
-
-        var marker4_infowindow = new google.maps.InfoWindow({
-            content: contentString4,
-            maxWidth: 200,
-            pixelOffset: new google.maps.Size(0, -10)
-        });
-
-        //ON MARKER CLICK EVENTS
-        google.maps.event.addListener(marker4, 'click', function () {
-            marker4_infowindow.open(map, marker4);
-        });
-
-        //ON INFO WINDOW CLOSE CLICK EVENTS
-        //=======================================================================================
-        google.maps.event.addListener(marker4_infowindow, 'closeclick', function () {
-            window.setTimeout(function () {
-                map.panTo(marker1.getPosition());
-            }, 500);
-        });
-
-
-        //INFO WINDOWS 5
-        //=======================================================================================
-        var contentString5 = '' +
-            '<div class="info-window-wrapper">' +
-            '<h6>TRAIN STATION</h6>' +
-            '<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-            '</div>';
-
-        var marker5_infowindow = new google.maps.InfoWindow({
-            content: contentString5,
-            maxWidth: 200,
-            pixelOffset: new google.maps.Size(0, -10)
-        });
-
-        //ON MARKER CLICK EVENTS
-        google.maps.event.addListener(marker5, 'click', function () {
-            marker5_infowindow.open(map, marker5);
-        });
-
-        //ON INFO WINDOW CLOSE CLICK EVENTS
-        //=======================================================================================
-        google.maps.event.addListener(marker5_infowindow, 'closeclick', function () {
-            window.setTimeout(function () {
-                map.panTo(marker1.getPosition());
-            }, 500);
-        });
-
-
-        //INFO WINDOWS 6
-        //=======================================================================================
-        var contentString6 = '' +
-            '<div class="info-window-wrapper">' +
-            '<h6>AIRPORT</h6>' +
-            '<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>' +
-            '</div>';
-
-        var marker6_infowindow = new google.maps.InfoWindow({
-            content: contentString6,
-            maxWidth: 200,
-            pixelOffset: new google.maps.Size(0, -10)
-        });
-
-        //ON MARKER CLICK EVENTS
-        google.maps.event.addListener(marker6, 'click', function () {
-            marker6_infowindow.open(map, marker6);
-        });
-
 
         //ON BOUND EVENTS AND WINDOW RESIZE
         //=======================================================================================
@@ -334,6 +149,4 @@
 
     // LOAD GMAP
     google.maps.event.addDomListener(window, 'load', initialize);
-
-
 })(jQuery);

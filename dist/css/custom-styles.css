@@ -64,3 +64,42 @@
 #slide-her-name {
     margin-top: 140px;
 }
+
+.map-container iframe {
+    pointer-events: none;
+}
+
+.map-container iframe.clicked {
+    pointer-events: auto;
+}
+
+.gift-logo img {
+    width: 100%;
+}
+
+#expectations-section img {
+    width: 100%;
+}
+
+.image-divider_static-image img {
+    width: 100%;
+}
+
+.image-divider_static-image .alignment {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.image-divider_static-image .v-align {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.image-divider_vertical-photo {
+    background-position: center 25%;
+}
