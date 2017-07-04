@@ -103,3 +103,70 @@
 .image-divider_vertical-photo {
     background-position: center 25%;
 }
+
+.section-block, .content-block {
+    padding: 30px 0;
+}
+
+h1, .h1 {
+    font-size: 54px;
+    letter-spacing: 2px;
+    margin: 40px 0;
+}
+
+h1.bigger, .h1.bigger {
+    font-size: 60px;
+}
+
+h2, .h2 {
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin: 40px 0;
+}
+
+h3, .h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+h4, .h4 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+h5, .h5 {
+    font-size: 16px;
+    letter-spacing: 0;
+    margin: 20px 0;
+    line-height: 24px;
+}
+
+h6, .h6 {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 10px 0;
+    line-height: 24px;
+}
+
+a {
+    transition: color .3s;
+}
+
+#and-text {
+    position: absolute;
+    top: 0px;
+    margin: auto;
+    left: 35px;
+    right: 0;
+}
+
+#curve-graphic {
+    position: absolute;
+    margin: auto;
+    top: -13px;
+    left: 35px;
+    right: 0;
+}
