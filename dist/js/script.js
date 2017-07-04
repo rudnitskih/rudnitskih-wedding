@@ -479,7 +479,7 @@
         //================================================================================
         var theday = new Date();
         theday = new Date(2017, 7, 19, 14);
-        $('.countdown').countdown({until: theday, format: 'DHMS'});
+        $('.countdown').countdown($.extend({until: theday, format: 'DHMS'}, $.countdown.regionalOptions['uk']));
 
 
         // 06.3 Gift Carousel

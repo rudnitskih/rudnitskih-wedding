@@ -10,17 +10,21 @@
 - Wonder gifts
 - "Thank you" slide and contacts
 
-
-
 ## Tasks
 
-- [ ] Find cyrillic font
-- [ ] Fix visual identity
+- [x] Find cyrillic font
+- [x] Fix visual identity
 - [ ] Add personal invite section
 - [ ] Create Google Form for registration
-- [ ] Add section about Chernigiv
-- [ ] Add accommodation section
-- [ ] Add expectations section
-- [ ] Add wonder gifts section
-- [ ] Add 'Thank you' section
+- [x] Add section about Chernigiv
+- [x] Add accommodation section
+- [x] Add expectations section
+- [x] Add wonder gifts section
+- [x] Add 'Thank you' section
 - [ ] Check adaptive design
+- [ ] Fix header
+- [ ] Fix logo
+- [ ] Fix font padding
+- [ ] Replace all Lorem Ipsum
+- [ ] Check card the same height
+- [ ] Check text on dividers
