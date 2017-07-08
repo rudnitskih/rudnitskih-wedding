@@ -180,7 +180,7 @@ a {
 }
 
 #lets-start-section img {
-    max-height: 800px;
+    /*max-height: 800px;*/
 }
 
 #slide-other-text {
@@ -272,4 +272,14 @@ a {
     .nav-center .first-child-margin {
         margin: 0;
     }
+}
+
+.transparent.stick-it #nav-menu .always-active {
+    /*border-color: #FFF;*/
+    /*color: #FFF;*/
+    color: yellow;
+}
+
+.transparent.stick-it #nav-menu .always-active:hover {
+    border-color: yellow;
 }

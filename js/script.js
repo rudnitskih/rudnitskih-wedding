@@ -309,13 +309,13 @@
 
             // 03.3 Stellar Parallax
             //================================================================================
-            if (!device.tablet() && !device.mobile() && !isIE9() && !isIE10() && !isIE11() && !isSafari()) {
-                $(".image-divider").css("background-attachment", "fixed");
-                $(window).stellar({
-                    horizontalScrolling: false,
-                    responsive: true,
-                });
-            }
+            // if (!device.tablet() && !device.mobile() && !isIE9() && !isIE10() && !isIE11() && !isSafari()) {
+            //     $(".image-divider").css("background-attachment", "fixed");
+            //     $(window).stellar({
+            //         horizontalScrolling: false,
+            //         responsive: true,
+            //     });
+            // }
 
             // 03.4 Waypoint Animate CSS
             //================================================================================
@@ -478,7 +478,7 @@
         // 06.2 Countdown
         //================================================================================
         var theday = new Date();
-        theday = new Date(2017, 7, 19, 14);
+        theday = new Date(2017, 7, 19, 15);
         $('.countdown').countdown($.extend({until: theday, format: 'DHMS'}, $.countdown.regionalOptions['uk']));
 
 
