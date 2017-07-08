@@ -121,33 +121,33 @@ h1.bigger, .h1.bigger {
 h2, .h2 {
     font-size: 42px;
     letter-spacing: 1px;
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 h3, .h3 {
     font-size: 30px;
     letter-spacing: 1px;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 h4, .h4 {
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 30px;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 h5, .h5 {
     font-size: 16px;
     letter-spacing: 0;
-    margin: 20px 0;
+    margin: 10px 0;
     line-height: 24px;
 }
 
 h6, .h6 {
     font-size: 14px;
     letter-spacing: 0;
-    margin: 10px 0;
+    margin: 5px 0;
     line-height: 24px;
 }
 
@@ -169,4 +169,107 @@ a {
     top: -13px;
     left: 35px;
     right: 0;
+}
+
+#counter-section .image-divider {
+    padding: 0;
+}
+
+#counter-section .container {
+    padding: 375px 0 25px 0;
+}
+
+#lets-start-section img {
+    max-height: 800px;
+}
+
+#slide-other-text {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#nav-wrapper svg, #nav-wrapper svg line {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.logo-wrapper {
+    display: flex;
+    width: 70px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper svg {
+    width: 60px;
+    padding-bottom: 5px;
+}
+
+.logo-wrapper svg:hover #layer1 {
+    animation: pace-3d-spinner linear infinite 2s;
+    transform-origin: 50% 50%;
+}
+
+.nav-center .first-child-margin {
+    margin-left: 35px;
+}
+
+.nav-center .last-child-margin {
+    margin-right: 0;
+}
+
+.nav-center .split-margin {
+    margin-left: 72px;
+}
+
+@media screen and (max-width: 991px) {
+    #nav-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile-nav {
+        margin-top: 0;
+    }
+
+    .logo-wrapper {
+        margin: 0 auto 0 0 !important;
+    }
+
+    #counting {
+        font-size: 48px;
+    }
+
+    #counter-section .image-divider {
+        background-position: 45% 50%;
+    }
+
+    #adventure-begin-wrapper {
+        margin-bottom: 0px;
+    }
+
+    #save-date {
+        line-height: 0.7;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .section-block {
+        padding: 10px;
+    }
+
+    .slide-image[style*=IMG_6572] {
+        background-position: 75% center !important;
+    }
+
+    .slide-title-outter-wrapper {
+        padding-top: 150px;
+    }
+
+    .nav-center .first-child-margin {
+        margin: 0;
+    }
 }
