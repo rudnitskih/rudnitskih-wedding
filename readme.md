@@ -31,3 +31,4 @@
 - [x] Fix text styles on main slide (the same font as the names)
 - [ ] optimize images
 - [ ] add image to invitation
+- [ ] add links to social sites
