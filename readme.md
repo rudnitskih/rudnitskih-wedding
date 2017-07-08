@@ -22,9 +22,12 @@
 - [x] Add wonder gifts section
 - [x] Add 'Thank you' section
 - [ ] Check adaptive design
-- [ ] Fix header
-- [ ] Fix logo
+- [x] Fix header
+- [x] Fix logo
 - [ ] Fix font padding
 - [ ] Replace all Lorem Ipsum
 - [ ] Check card the same height
 - [ ] Check text on dividers
+- [x] Fix text styles on main slide (the same font as the names)
+- [ ] optimize images
+- [ ] add image to invitation
