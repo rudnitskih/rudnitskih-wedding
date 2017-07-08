@@ -32,3 +32,4 @@
 - [ ] optimize images
 - [ ] add image to invitation
 - [ ] add links to social sites
+- [ ] add arrows to carousel
