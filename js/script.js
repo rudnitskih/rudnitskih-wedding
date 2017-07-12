@@ -392,7 +392,9 @@
             if (target.is('a') && target.attr("href") !== "#") {
                 target.parents("#nav-menu").removeClass("open");
             }
-            return false;
+            if (!target.is('.not-prevent')) {
+                return false;
+            }
         });
 
         // 04.4 DOUBLE TAP DROP DOWN MENU
