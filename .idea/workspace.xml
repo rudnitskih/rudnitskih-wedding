@@ -4,6 +4,7 @@
     <list default="true" id="c3b7e9fd-4e12-42dc-9fbc-c3924d589a08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/script.js" afterPath="$PROJECT_DIR$/dist/js/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="207" column="38" lean-forward="false" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="38" />
+            <state relative-caret-position="691">
+              <caret line="114" column="190" lean-forward="false" selection-start-line="114" selection-start-column="190" selection-end-line="114" selection-end-column="190" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -38,9 +39,9 @@
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#section#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8812#8990#0" expanded="false" />
+                <element signature="e#8918#9096#0" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#9599#9629#0" expanded="false" />
+                <element signature="e#9705#9735#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#3;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#3;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -58,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="personal-invite.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/js/personal-invite.js">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="396">
+              <caret line="394" column="35" lean-forward="false" selection-start-line="394" selection-start-column="35" selection-end-line="394" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map-script-1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/js/map-script-1.js">
+      <file leaf-file-name="personal-invite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/personal-invite.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Наші</find>
-      <find>h1</find>
       <find>.h1</find>
       <find>Розкла</find>
       <find>звор</find>
@@ -112,6 +111,8 @@
       <find>nav-smooth-scroll</find>
       <find>pool</find>
       <find>зар</find>
+      <find>https://docs.google.com/forms/d/e/1FAIpQLSfu3B7YgRxpUIuOn2nekN5piKxNRAWvL1kUcMFF4zf4wIYGag/viewform?usp=sf_link</find>
+      <find>nav-menu</find>
     </findStrings>
     <replaceStrings>
       <replace>a6ca50</replace>
@@ -119,6 +120,7 @@
       <replace>Montserrat</replace>
       <replace>#dce8a6</replace>
       <replace>#abdcc9</replace>
+      <replace>https://docs.google.com/forms/d/e/1FAIpQLSfu3B7YgRxpUIuOn2nekN5piKxNRAWvL1kUcMFF4zf4wIYGag/viewform?usp=sf_link</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/dist/css</dir>
@@ -149,12 +151,12 @@
         <option value="$PROJECT_DIR$/dist/css/skin/mint-limon/navbar-style.css" />
         <option value="$PROJECT_DIR$/dist/js/countdown/jquery.countdown-uk.js" />
         <option value="$PROJECT_DIR$/deploy.sh" />
-        <option value="$PROJECT_DIR$/dist/js/script.js" />
         <option value="$PROJECT_DIR$/dist/css/custom-styles.css" />
         <option value="$PROJECT_DIR$/dist/js/map-script-1.js" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/dist/js/personal-invite.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/dist/js/script.js" />
       </list>
     </option>
   </component>
@@ -367,7 +369,7 @@
       <workItem from="1499197284958" duration="5993000" />
       <workItem from="1499346513111" duration="15144000" />
       <workItem from="1499873234521" duration="2583000" />
-      <workItem from="1499876254715" duration="1470000" />
+      <workItem from="1499876254715" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="Add README and draft sections">
       <created>1499122794727</created>
@@ -418,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499876443419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add personal invite block">
+      <created>1499877829636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1499877829636</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48643000" />
+    <option name="totallyTimeSpent" value="49211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="416" y="-1027" width="1680" height="1027" extended-state="6" />
@@ -431,10 +440,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22423147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.568984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51336896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -442,7 +452,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -460,7 +469,8 @@
     <MESSAGE value="- disable parallax&#10;- fix some images on other screens&#10;- always highlight registration button" />
     <MESSAGE value="Added some actual text." />
     <MESSAGE value="- add more texts&#10;- remove map block&#10;- remove gifts block&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add more texts&#10;- remove map block&#10;- remove gifts block&#10;" />
+    <MESSAGE value="Add personal invite block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add personal invite block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -758,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2505">
-          <caret line="489" column="37" lean-forward="false" selection-start-line="489" selection-start-column="26" selection-end-line="489" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/main-slider-fade.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,10 +805,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/personal-invite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="207" column="38" lean-forward="false" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="38" />
+        <state relative-caret-position="691">
+          <caret line="114" column="190" lean-forward="false" selection-start-line="114" selection-start-column="190" selection-end-line="114" selection-end-column="190" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -818,9 +829,9 @@
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#li#0;n#ul#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#section#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8812#8990#0" expanded="false" />
+            <element signature="e#8918#9096#0" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#9599#9629#0" expanded="false" />
+            <element signature="e#9705#9735#0" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#3;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#3;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -837,10 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/personal-invite.js">
+    <entry file="file://$PROJECT_DIR$/dist/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="396">
+          <caret line="394" column="35" lean-forward="false" selection-start-line="394" selection-start-column="35" selection-end-line="394" selection-end-column="35" />
           <folding />
         </state>
       </provider>
