@@ -49,7 +49,7 @@
         //DEFINE MAP OPTIONS
         //=======================================================================================
         var mapOptions = {
-            zoom: 17,
+            zoom: 15,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             center: new google.maps.LatLng(51.506020, 31.340359),
             panControl: true,
@@ -98,7 +98,7 @@
 
         var marker1_infowindow = new google.maps.InfoWindow({
             content: contentString1,
-            maxWidth: 200,
+            maxWidth: 150,
             pixelOffset: new google.maps.Size(0, -10)
         });
 
@@ -117,12 +117,12 @@
             '<div class="info-window-wrapper">' +
             '<h6>Основна гостиниця</h6>' +
             '<div class="info-window-desc">Заброньоване місце</div>' +
-            '<div class="info-window-link"><a href="#" class="grey-link with-underline">Подивитися номери</a></div>' +
+            '<div class="info-window-link"><a target="_blank" href="http://www.hotel.cn.ua/wp/gotel-navchalno-metodichnogo-centru/dvuxmestnyj-3/" class="grey-link with-underline">Подивитися номери</a></div>' +
             '</div>';
 
         var marker2_infowindow = new google.maps.InfoWindow({
             content: contentString2,
-            maxWidth: 200,
+            maxWidth: 150,
             pixelOffset: new google.maps.Size(0, -10)
         });
 

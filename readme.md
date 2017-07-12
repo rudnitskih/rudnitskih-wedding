@@ -24,10 +24,10 @@
 - [ ] Check adaptive design
 - [x] Fix header
 - [x] Fix logo
-- [ ] Fix font padding
-- [ ] Replace all Lorem Ipsum
-- [ ] Check card the same height
-- [ ] Check text on dividers
+- [x] Fix font padding
+- [x] Replace all Lorem Ipsum
+- [x]  C  еконоheck card the same height
+- [x] Check text on dividers
 - [x] Fix text styles on main slide (the same font as the names)
 - [ ] optimize images
 - [ ] add image to invitation
