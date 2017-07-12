@@ -283,3 +283,16 @@ a {
 .transparent.stick-it #nav-menu .always-active:hover {
     border-color: yellow;
 }
+
+.owl-theme .owl-controls .owl-page span {
+    width: 10px;
+    height: 10px;
+}
+
+.owl-item .photo-item {
+    heigth: 35px;
+}
+
+.owl-item .title-excerpt {
+    height: 335px;
+}
