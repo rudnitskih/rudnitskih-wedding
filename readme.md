@@ -26,7 +26,7 @@
 - [x] Check card the same height
 - [x] Check text on dividers
 - [x] Fix text styles on main slide (the same font as the names)
-- [ ] optimize images
+- [x] optimize images
 - [ ] add image to invitation
 - [x] add links to social sites
 - [ ] add arrows to carousel
