@@ -4,32 +4,29 @@
 - Personal invite
 - Counter
 - General information about wedding and Chernigiv
-- Accommodations
-- Map
 - Expectations
-- Wonder gifts
-- "Thank you" slide and contacts
+- "Thank you" slide
 
 ## Tasks
 
 - [x] Find cyrillic font
 - [x] Fix visual identity
-- [ ] Add personal invite section
-- [ ] Create Google Form for registration
+- [x] Add personal invite section
+- [x] Create Google Form for registration
 - [x] Add section about Chernigiv
 - [x] Add accommodation section
 - [x] Add expectations section
 - [x] Add wonder gifts section
 - [x] Add 'Thank you' section
-- [ ] Check adaptive design
+- [x] Check adaptive design
 - [x] Fix header
 - [x] Fix logo
 - [x] Fix font padding
 - [x] Replace all Lorem Ipsum
-- [x]  C  еконоheck card the same height
+- [x] Check card the same height
 - [x] Check text on dividers
 - [x] Fix text styles on main slide (the same font as the names)
 - [ ] optimize images
 - [ ] add image to invitation
-- [ ] add links to social sites
+- [x] add links to social sites
 - [ ] add arrows to carousel

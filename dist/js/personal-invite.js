@@ -25,7 +25,7 @@ $(function () {
             text: coupleRussian
         },
         'Andrew-Skripnikov': {
-            header: 'Доргой наш Андрей',
+            header: 'Дорогой наш Андрей',
             text: singleRussian
         },
         'Shpak-family': {
@@ -108,13 +108,13 @@ $(function () {
             header: 'Любі Миколо та Анастасіє'
         },
         'Kirichek-family': {
-            header: 'Шановні Вікторе Федоровичу та Валентино '
+            header: 'Шановні Вікторе Федоровичу та Валентино Сергіївна'
         },
         'Irochka': {
             header: 'Дорогі Іринко та Гордійчику'
         },
         'Valentin-Tatiana': {
-            header: 'Уважаемые Валентин Петрович и Татьяна',
+            header: 'Уважаемые Валентин и Татьяна',
             text: coupleRussian
         },
         'Oleg': {
