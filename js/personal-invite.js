@@ -121,6 +121,10 @@ $(function () {
             header: 'Любий друже Олеже',
             text: singleUkrainian
         },
+        'savchenko-family': {
+            header: 'Дорогие Татьяна и Сашка',
+            text: coupleRussian
+        },
 
         'andrey-photograph': {
             header: 'Шановний Андрію!',
