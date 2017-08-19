@@ -10,6 +10,8 @@ $(function () {
 
     const coupleRussian = '19 августа 2017 мы создадим новую счастливую семью. Для нас большой радостью будет разделить этот незабываемый и важный день с Вами. От всей души приглашаем Вас на нашу свадьбу!';
 
+    const englishText = '19th August of 2017 we plan to create a new family. I will be happy to see you at my wedding, but this is difficult to attend event across 6000 km:) For this purpose, we will broadcast our wedding on the Internet. Like for the Royal Family:) Please join to <a href="//www.pscp.tv/" target="_blank">Periscope</a> service at 15.00 (Kyiv Time) or 17.30 (Indian Time) to see our ceremony. The video will be available in Vlad Vovk\'s <a href="//www.pscp.tv/vo_olk1/1vOxwOeWRERxB" target="_blank">profile</a>. See you!';
+
     const invantation = {
         'mom': {
             header: 'Нійрідніші Мамо та Станіславе Борисовичу'
@@ -148,13 +150,33 @@ $(function () {
 
         'sheremet-family': {
             header: 'Любі наші Ольго та Олексійчику'
+        },
+
+        'ankush': {
+            header: 'Dear Ankush!',
+            text: englishText
+        },
+
+        'gourav': {
+            header: 'Dear Gourav!',
+            text: englishText
+        },
+
+        'surekha': {
+            header: 'Dear Surekha!',
+            text: englishText
+        },
+
+        'english': {
+            header: 'Dear Friend!',
+            text: englishText
         }
     };
 
     const personalInvite = Object.assign({}, defaultParams, invantation[getUrlParameter('invite')]);
 
     $('#invite-header').text(personalInvite.header);
-    $('#invite-text').text(personalInvite.text);
+    $('#invite-text').html(personalInvite.text);
 
     function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),
