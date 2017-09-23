@@ -1,7 +1,8 @@
 $(function () {
     const defaultParams = {
         header: 'Шановні гості!',
-        text: '19 серпня 2017 року ми створимо нову щасливу сім’ю. Для нас великою радістю буде розділити цей незабутній та важливий день із Вами. Від щирого серця запрошуємо Вас на наше весілля!'
+        text: '19 серпня 2017 року ми створимо нову щасливу сім’ю. Для нас великою радістю буде розділити цей незабутній та важливий день із Вами. Від щирого серця запрошуємо Вас на наше весілля!',
+        thanksText: 'Дякую. Все було кльово. Дякую. Фотки <a href="">тут</a>'
     };
 
     const singleUkrainian = '19 серпня 2017 року ми створимо нову щасливу сім’ю. Для нас великою радістю буде розділити цей незабутній та важливий день із тобою. Від щирого серця запрошуємо тебе на наше весілля!';
@@ -177,6 +178,7 @@ $(function () {
 
     $('#invite-header').text(personalInvite.header);
     $('#invite-text').html(personalInvite.text);
+    $('#thanks-text').html(personalInvite.thanksText);
 
     function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),

@@ -30,3 +30,11 @@
 - [ ] add image to invitation
 - [x] add links to social sites
 - [ ] add arrows to carousel
+
+### After wedding
+- [x] Public ceremony, restaurant, walking photos
+- [ ] Edit and publish honeymoon photos
+- [ ] Add personal 'thank you' text
+- [ ] Optimize images
+- [ ] Collect and share selfie photos
+- [ ] Check adaptive design
