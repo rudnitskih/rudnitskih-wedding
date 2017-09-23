@@ -356,7 +356,6 @@ a {
 #photo-links .item {
     display: flex;
     flex-direction: column;
-    width: 33%;
     padding: 10px;
     color: #666;
 }
@@ -364,4 +363,22 @@ a {
 #photo-links .title-excerpt {
     padding: 10px;
     flex-grow: 1;
+}
+
+
+#photo-links .photo-item img {
+    object-fit: cover;
+    height: 300px;
+}
+
+@media screen and (min-width: 991px) {
+    #photo-links .item {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #photo-links .photo-item img {
+        height: auto;
+    }
 }
