@@ -65,6 +65,42 @@
     margin-top: 140px;
 }
 
+.after-wedding #slide-couplename-wrapper {
+    margin: 0 0 130px;
+}
+
+.after-wedding #slide-couplename {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.after-wedding #slide-his-name {
+
+}
+
+.after-wedding #slide-and-text {
+    margin-top: 0;
+}
+
+.after-wedding #slide-her-name {
+    margin-top: 0;
+}
+
+.after-wedding #and-text {
+    position: static;
+    width: 130px;
+}
+
+.after-wedding #curve-graphic {
+    left: 10px;
+}
+
+.after-wedding #slide-other-text {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
 .map-container iframe {
     pointer-events: none;
 }
@@ -188,10 +224,19 @@ a {
     font-size: 16px;
 }
 
-#nav-wrapper svg, #nav-wrapper svg line {
+#nav-wrapper svg,
+#nav-wrapper svg line {
     fill: #fff;
     stroke: #fff;
 }
+
+
+.after-wedding #nav-wrapper svg,
+.after-wedding #nav-wrapper svg line  {
+    fill: #666;
+    stroke: #666;
+}
+
 
 .logo-wrapper {
     display: flex;
@@ -295,4 +340,28 @@ a {
 
 .owl-item .title-excerpt {
     height: 335px;
+}
+
+#to-be-continued-text {
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+}
+
+#photo-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#photo-links .item {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 10px;
+    color: #666;
+}
+
+#photo-links .title-excerpt {
+    padding: 10px;
+    flex-grow: 1;
 }

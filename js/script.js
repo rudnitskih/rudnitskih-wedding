@@ -479,10 +479,17 @@
 
         // 06.2 Countdown
         //================================================================================
-        var theday = new Date();
-        theday = new Date(2017, 7, 19, 15);
-        $('.countdown').countdown($.extend({until: theday, format: 'DHMS'}, $.countdown.regionalOptions['uk']));
+        var theday = new Date(2017, 7, 19, 15);
 
+        $('.countdown.until').countdown($.extend({
+            until: theday,
+            format: 'DHMS'
+        }, $.countdown.regionalOptions['uk']));
+
+        $('.countdown.since').countdown($.extend({
+            since: theday,
+            format: 'YDHMS'
+        }, $.countdown.regionalOptions['uk']));
 
         // 06.3 Gift Carousel
         //================================================================================
