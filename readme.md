@@ -33,8 +33,7 @@
 
 ### After wedding
 - [x] Public ceremony, restaurant, walking photos
-- [ ] Edit and publish honeymoon photos
 - [ ] Add personal 'thank you' text
-- [ ] Optimize images
+- [x] Optimize images
 - [ ] Collect and share selfie photos
 - [ ] Check adaptive design
