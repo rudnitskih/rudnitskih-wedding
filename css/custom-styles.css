@@ -65,40 +65,42 @@
     margin-top: 140px;
 }
 
-.after-wedding #slide-couplename-wrapper {
-    margin: 0 0 130px;
-}
+@media screen and (min-width: 991px) {
+    .after-wedding #slide-couplename-wrapper {
+        margin: 0 0 130px;
+    }
 
-.after-wedding #slide-couplename {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .after-wedding #slide-couplename {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.after-wedding #slide-his-name {
+    .after-wedding #slide-his-name {
 
-}
+    }
 
-.after-wedding #slide-and-text {
-    margin-top: 0;
-}
+    .after-wedding #slide-and-text {
+        margin-top: 0;
+    }
 
-.after-wedding #slide-her-name {
-    margin-top: 0;
-}
+    .after-wedding #slide-her-name {
+        margin-top: 0;
+    }
 
-.after-wedding #and-text {
-    position: static;
-    width: 130px;
-}
+    .after-wedding #and-text {
+        position: static;
+        width: 130px;
+    }
 
-.after-wedding #curve-graphic {
-    left: 10px;
-}
+    .after-wedding #curve-graphic {
+        left: 10px;
+    }
 
-.after-wedding #slide-other-text {
-    margin-top: 60px;
-    font-size: 20px;
+    .after-wedding #slide-other-text {
+        margin-top: 60px;
+        font-size: 20px;
+    }
 }
 
 .map-container iframe {
@@ -230,13 +232,11 @@ a {
     stroke: #fff;
 }
 
-
 .after-wedding #nav-wrapper svg,
-.after-wedding #nav-wrapper svg line  {
+.after-wedding #nav-wrapper svg line {
     fill: #666;
     stroke: #666;
 }
-
 
 .logo-wrapper {
     display: flex;
@@ -365,10 +365,15 @@ a {
     flex-grow: 1;
 }
 
-
 #photo-links .photo-item img {
     object-fit: cover;
     height: 300px;
+}
+
+@media (min-width: 1367px) {
+    #photo-links .photo-item img {
+        height: 366px;
+    }
 }
 
 @media screen and (min-width: 991px) {
@@ -381,4 +386,42 @@ a {
     #photo-links .photo-item img {
         height: auto;
     }
+
+    #slide-arrow {
+        bottom: 20px;
+    }
+
+    #slide-couplename-wrapper {
+        margin-bottom: 70px;
+    }
+
+    .married-counter {
+        height: 300px;
+    }
+
+    #counter-section.married-counter .container {
+        padding-top: 125px;
+    }
+
+    #to-be-continued .image-divider {
+        background-position-x: 80%;
+    }
+
+    .nav-center .last-child-margin {
+        margin-left: 0;
+    }
+}
+
+#to-be-continued .image-divider {
+    height: 600px;
+    background-position-y: 30%;
+}
+
+#rudnytskykh-signature {
+    display: block;
+    text-align: right;
+    font-family: 'Great Vibes', cursive;
+    font-size: 23px;
+    line-height: 1.4;
+    letter-spacing: 1px;
 }
