@@ -97,7 +97,7 @@ $(function () {
             header: 'Наші дорогі друзі Ігоре та Вікторіє'
         },
         'Lena-and-Igor': {
-            header: 'Наша любя Оленко',
+            header: 'Наша люба Оленко',
             thanksTexts: thanksTexts.singleUkrainianWoman
         },
         'Andrew': {
@@ -115,7 +115,7 @@ $(function () {
             text: singleUkrainian,
             thanksTexts: thanksTexts.singleUkrainianMan
         },
-        'Timur-and-Nina': {
+        'Timur': {
             header: 'Наш добрий друже Тимур',
             text: singleUkrainian,
             thanksTexts: thanksTexts.singleUkrainianMan
