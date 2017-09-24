@@ -65,7 +65,7 @@
     margin-top: 140px;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 440px) {
     .after-wedding #slide-couplename-wrapper {
         margin: 0 0 130px;
     }
@@ -100,6 +100,12 @@
     .after-wedding #slide-other-text {
         margin-top: 60px;
         font-size: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .married-counter {
+        height: 300px;
     }
 }
 
@@ -264,10 +270,6 @@ a {
     margin-right: 0;
 }
 
-.nav-center .split-margin {
-    margin-left: 72px;
-}
-
 @media screen and (max-width: 991px) {
     #nav-wrapper {
         display: flex;
@@ -380,9 +382,18 @@ a {
     #photo-links .item {
         width: 33%;
     }
+
+    .nav-center .split-margin {
+        margin-left: 72px;
+    }
 }
 
 @media screen and (max-width: 991px) {
+    #slide-her-name,
+    #slide-his-name {
+        font-size: 85px;
+    }
+
     #photo-links .photo-item img {
         height: auto;
     }
@@ -395,10 +406,6 @@ a {
         margin-bottom: 70px;
     }
 
-    .married-counter {
-        height: 300px;
-    }
-
     #counter-section.married-counter .container {
         padding-top: 125px;
     }
@@ -409,6 +416,10 @@ a {
 
     .nav-center .last-child-margin {
         margin-left: 0;
+    }
+
+    #to-be-continued-text {
+        font-size: 40px;
     }
 }
 
