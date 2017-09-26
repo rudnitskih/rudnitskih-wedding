@@ -45,7 +45,9 @@ $(function () {
         },
         'Andrew-Skripnikov': {
             header: 'Дорогой наш Андрей',
-            text: singleRussian
+            text: singleRussian,
+            thanksText: 'От имени вновьсозданной семьи Рудницких хотим искренне поблагодарить Тебя, за твой финансовый подарок! Мы благодарны Вам за теплые слова и пожелания. Ты всегда будете желанными гостями в нашем доме.',
+            thanksSignature: thanksSignature.russian
         },
         'Shpak-family': {
             header: 'Шановні Ігоре Георгійовичу, Валентино Миколаївно та Іринко'
