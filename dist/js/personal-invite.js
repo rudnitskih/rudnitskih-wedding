@@ -62,16 +62,16 @@ $(function () {
         'Aleks-Makovey': {
             header: 'Наш любий друже Сашко',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.missedUkrainian
+            thanksText: thanksTexts.missedUkrainian
         },
         'Denis-and-Karina': {
             header: 'Дорогі Денисе та Карино',
-            thanksTexts: thanksTexts.missedUkrainian
+            thanksText: thanksTexts.missedUkrainian
         },
         'Vitaly-Gomonov': {
             header: 'Наш любий друже Віталію',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianMan
+            thanksText: thanksTexts.singleUkrainianMan
         },
         'Vlad-and-Tasia': {
             header: 'Наші любі Владе і Тасю'
@@ -79,7 +79,7 @@ $(function () {
         'Bogdan-Gerkalyuk': {
             header: 'Дорогий друже Богдане',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianMan
+            thanksText: thanksTexts.singleUkrainianMan
         },
         'Vitaliy-and-Svetlana': {
             header: 'Наші любі Віталію та Світланко'
@@ -90,7 +90,7 @@ $(function () {
         'Tetyanka': {
             header: 'Наша люба Тетянко',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianWoman
+            thanksText: thanksTexts.singleUkrainianWoman
         },
         'Sveta-and-Sasha': {
             header: 'Любі Сашко та Світланко'
@@ -105,7 +105,7 @@ $(function () {
         'Andrew': {
             header: 'Наш добрий друже Андрію',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianMan
+            thanksText: thanksTexts.singleUkrainianMan
         },
         'Mikhail': {
             header: 'Наш любий Мишко',
@@ -115,12 +115,12 @@ $(function () {
         'Vladislav': {
             header: 'Наш любий Владику',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianMan
+            thanksText: thanksTexts.singleUkrainianMan
         },
         'Timur': {
             header: 'Наш добрий друже Тимур',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianMan
+            thanksText: thanksTexts.singleUkrainianMan
         },
         'Mark': {
             header: 'Наш любий друже Марку',
@@ -135,12 +135,12 @@ $(function () {
         'Irina': {
             header: 'Наша дорога Іринко',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianWoman
+            thanksText: thanksTexts.singleUkrainianWoman
         },
         'Nick-and-Anastasia': {
-            header: 'Наш друже Миколай',
+            header: 'Наші любі Миколай та Анастасія',
             text: singleUkrainian,
-            thanksTexts: thanksTexts.singleUkrainianMan
+            thanksText: 'Коля, від імені новоствореної родини Рудницьких хочемо щиро подякувати Тобі, що погодився розділити день нашого весілля! Ми вдячні за теплі слова й побажання, веселий сміх та гарний настрій. Без тебе цей день не був би таким чудовим! Дякуємо за увагу, щедрість та щирість, за твій час – це для нас дуже багато значить. Ти завжди будешь бажаним гостєм у нашому домі.<br><br>Настя, нажаль тобі не вдалося бути на нашому святі, але дякуємо за підтримку та гарні слова. Хоч ми знайомі і не так довго, але сподіваємося що наші родини будут дружити дуже довгий час.'
         },
         'Kirichek-family': {
             header: 'Шановні Вікторе Федоровичу та Валентино Сергіївна'
