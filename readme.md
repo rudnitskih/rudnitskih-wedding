@@ -27,13 +27,13 @@
 - [x] Check text on dividers
 - [x] Fix text styles on main slide (the same font as the names)
 - [x] optimize images
-- [ ] add image to invitation
 - [x] add links to social sites
-- [ ] add arrows to carousel
 
 ### After wedding
 - [x] Public ceremony, restaurant, walking photos
-- [ ] Add personal 'thank you' text
+- [x] Add personal 'thank you' text
 - [x] Optimize images
 - [ ] Collect and share selfie photos
-- [ ] Check adaptive design
+- [x] Check adaptive design
+- [x] Add Videos
+- [ ] Add second day photos
