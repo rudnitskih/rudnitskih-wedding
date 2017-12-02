@@ -63,7 +63,7 @@
     <nav id="nav-bar" class="top-bar fluid-width hide-first transparent nav-center sticky-nav">
         <div id="nav-wrapper">
             <a href="#main-slider" class="logo-wrapper">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-4.7 -51.2 964.7 611.2" enable-background="new -4.7 -51.2 964.7 611.2" xml:space="preserve" fill="#4C89DC">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="-4.7 -51.2 964.7 611.2" enable-background="new -4.7 -51.2 964.7 611.2" xml:space="preserve" fill="#4C89DC">
                     <g>
                         <path d="M377.7,402.8c0,83.2-64.3,139.7-159.9,139.7h-124V263.6h126.9C314.2,263.6,377.7,320.1,377.7,402.8z M299.1,403.6
 		c0-48.1-33.3-80.7-79.9-80.7h-48.3v160.8h52C267.6,483.5,299.1,451.4,299.1,403.6z"/>
@@ -170,7 +170,8 @@
     <ul class="slides">
         <li style="transform: scaleX(-1);">
             <!-- SLIDE IMAGE -->
-            <div data-stellar-ratio="0.5" class="slide-image" style="background-image:url(images/20170819_676.jpg); background-position:center 50%;">
+            <div data-stellar-ratio="0.5" class="slide-image"
+                 style="background-image:url(images/20170819_676.jpg); background-position:center 50%;">
             </div>
 
             <!-- SLIDE OVERLAY -->
@@ -183,48 +184,6 @@
 
 <!--CONTENT SECTION-->
 <section id="content">
-    <!--INVITE SECTION-->
-    <section id="thankyou" class="section-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-10 text-center">
-                    <h2 id="invite-header" class="animation fadeInUp"></h2>
-                    <p id="thanks-text" class="intro-text animation fadeInUp"></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--END of INVITE SECTION-->
-
-    <!-- COUNTER SECTION -->
-    <section id="counter-section" class="married-counter">
-        <div class="image-divider auto-height" style="background-image:url(images/20170819_598.jpg);" data-stellar-background-ratio="0.5">
-
-            <div class="divider-overlay"></div>
-
-            <!--Use Center Middle Alignment to align middle the content for fixed-height parallax
-            <div class="alignment">
-                <div class="v-align center-middle">  -->
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-1 col-md-10 text-center">
-                        <div id="counting-wrapper" class="animation fadeInUp">
-                            <div id="counting">Одруженi</div>
-                        </div>
-                    </div>
-                    <div class="col-md-offset-2 col-md-8 text-center">
-                        <div id="countdown" class="countdown since circle-countdown animation fadeInUp"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!--</div>
-          </div>-->
-        </div>
-    </section>
-    <!-- END of COUNTER SECTION -->
-
     <!--WEDDING SECTION-->
     <section id="photos" class="section-block">
         <div class="container">
@@ -235,6 +194,64 @@
                     </h2>
                 </div>
             </div>
+
+            <div class="row">
+                <script>
+                  document.addEventListener('DOMContentLoaded', function () {
+                    Array.from(document.querySelectorAll('.responsive-video__preview')).map((element) => {
+                      element.addEventListener('mouseover', () => {
+                        element.classList.add('isHidden');
+                      });
+                    });
+                  });
+                </script>
+
+                <div class="col-md-6">
+                    <div target="_blank" href="https://photos.app.goo.gl/Lgucu4iAR1yhUZb13" class="item">
+                        <!--PHOTO-ITEM-->
+                        <div class="photo-item animation fadeInUp">
+
+                            <!--PHOTO-->
+                            <div class="responsive-video">
+                                <img src="images/short_video_preview.png"
+                                     class="responsive-video__preview">
+                                <iframe src="https://drive.google.com/file/d/1d7i8DKoKVbYCzO7w7La9O_7FLXIQIfrrUw/preview"
+                                        class="responsive-video__item"
+                                        allowfullscreen="allowfullscreen">
+                                </iframe>
+                            </div>
+                        </div><!--END of PHOTO-ITEM-->
+
+                        <!-- TITLE & EXCERPT -->
+                        <div class="title-excerpt animation fadeInUp text-center">
+                            <h5>Коротке відео (3 хв)</h5>
+                        </div>
+                        <!-- END of TITLE & EXCERPT -->
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div target="_blank" href="https://photos.app.goo.gl/Lgucu4iAR1yhUZb13" class="item">
+                        <!--PHOTO-ITEM-->
+                        <div class="photo-item animation fadeInUp">
+
+                            <!--PHOTO-->
+                            <div class="responsive-video">
+                                <iframe src="https://drive.google.com/file/d/1eINp5mcDJM9y2QGnx1ux4MTvzZaQgdQe/preview"
+                                        class="responsive-video__item"
+                                        allowfullscreen="allowfullscreen"></iframe>
+                            </div>
+                        </div><!--END of PHOTO-ITEM-->
+
+                        <!-- TITLE & EXCERPT -->
+                        <div class="title-excerpt animation fadeInUp text-center">
+                            <h5>Довге відео (55 хв)</h5>
+                        </div>
+                        <!-- END of TITLE & EXCERPT -->
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
                 <!-- EVENTS CAROUSEL -->
                 <div id="photo-links" class="animation fadeInUp">
@@ -318,29 +335,8 @@
                         <div class="title-excerpt animation fadeInUp text-center">
                             <h5>Селфі</h5>
                             <p>
-                                Просимо також добавити свої світлини у цей альбом. Найпростіше це зробити встановивши застосунок Google Photos на свій смартфон
-                            </p>
-                        </div>
-                        <!-- END of TITLE & EXCERPT -->
-                    </a><!-- END of ITEM-4 -->
-
-                    <a target="_blank" class="item">
-                        <!--PHOTO-ITEM-->
-                        <div class="photo-item animation fadeInUp">
-                            <!--PHOTO-->
-                            <img src="images/20170819_068.jpg" alt="" class="hover-animation image-zoom-in">
-
-                            <!--PHOTO OVERLAY-->
-                            <div class="layer wh95 hidden-black-overlay hover-animation fade-in"></div>
-                            <!--END of PHOTO OVERLAY-->
-                        </div><!--END of PHOTO-ITEM-->
-
-                        <!-- TITLE & EXCERPT -->
-                        <div class="title-excerpt animation fadeInUp text-center">
-                            <h5>Відео</h5>
-                            <p>
-                                Готується:)
-                                Буде пізніше
+                                Просимо також добавити свої світлини у цей альбом. Найпростіше це зробити встановивши
+                                застосунок Google Photos на свій смартфон
                             </p>
                         </div>
                         <!-- END of TITLE & EXCERPT -->
@@ -351,9 +347,53 @@
     </section>
     <!-- END of WEDDING SECTION-->
 
+    <!-- COUNTER SECTION -->
+    <section id="counter-section" class="married-counter">
+        <div class="image-divider auto-height" style="background-image:url(images/20170819_598.jpg);"
+             data-stellar-background-ratio="0.5">
+
+            <div class="divider-overlay"></div>
+
+            <!--Use Center Middle Alignment to align middle the content for fixed-height parallax
+            <div class="alignment">
+                <div class="v-align center-middle">  -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-10 text-center">
+                        <div id="counting-wrapper" class="animation fadeInUp">
+                            <div id="counting">Одруженi</div>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-2 col-md-8 text-center">
+                        <div id="countdown" class="countdown since circle-countdown animation fadeInUp"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--</div>
+          </div>-->
+        </div>
+    </section>
+    <!-- END of COUNTER SECTION -->
+
+    <!--INVITE SECTION-->
+    <section id="thankyou" class="section-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10 text-center">
+                    <h2 id="invite-header" class="animation fadeInUp"></h2>
+                    <p id="thanks-text" class="intro-text animation fadeInUp"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END of INVITE SECTION-->
+
     <!-- SAVE THE DATE SECTION -->
     <section id="to-be-continued">
-        <div class="image-divider fixed-height" style="background-image:url(images/20170819_700.jpg);" data-stellar-background-ratio="0.5">
+        <div class="image-divider fixed-height" style="background-image:url(images/20170819_700.jpg);"
+             data-stellar-background-ratio="0.5">
 
             <div class="divider-overlay"></div>
 
